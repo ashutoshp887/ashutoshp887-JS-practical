@@ -8,5 +8,13 @@
  * Normal year has 365 days
  * February has 28 days or 29 days 
  */
-const a=10;
-const c = 10 ;
+
+function leap(a){
+    if(a%4===0){
+        return true;
+    }
+    else{
+        return false
+    }
+}
+console.log(leap(2021));
