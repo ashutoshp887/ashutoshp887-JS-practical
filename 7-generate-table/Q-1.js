@@ -16,3 +16,15 @@ for(i=1;i<=end;i++){
 }
 }
 console.log(number(2,10))
+
+
+
+//2nd Methhod
+
+function method2(start1,end2){
+for(i=start1; i<=start1 * end2; i=i+start1){
+    console.log(i)
+}
+}
+
+console.log(method2(2,10))
