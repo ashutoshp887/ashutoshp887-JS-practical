@@ -23,3 +23,19 @@ split1.forEach(num=>{
    return final;
 }
 console.log(sum(56))
+
+
+// 2nd  Method with use of String 
+
+const method =(number)=>{
+let number1 = number
+let result=0
+while(number1>0){
+    let solution= number1 % 10;
+    number1 = Math.floor(number1/10)
+ result = result +solution
+}
+return result ;
+}
+
+console.log(method(23))
