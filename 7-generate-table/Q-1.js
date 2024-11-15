@@ -8,3 +8,11 @@
  * Example:
  * 4,10 => 4, 8,12 .....40 
  */
+
+function number(start,end){
+for(i=1;i<=end;i++){
+    let result = i* start
+    console.log(`${start} * ${i} = ${i * start}`)
+}
+}
+console.log(number(2,10))
